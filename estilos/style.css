@@ -31,11 +31,15 @@ section#login{
     left: 50%;
     transform: translate(-50%,-50%);
     overflow: hidden;
+
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.393);
+
+    transition: width .5s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
