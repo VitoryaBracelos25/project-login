@@ -8,6 +8,7 @@
 
     section#login{
         width: 80vw;
+        height: 380px;
     }
 
     section#login > div#imagem{
@@ -35,6 +36,7 @@
     }
     section#login{
         width: 850px;
+        height: 450px;
     }
 
     section#login > div#imagem{
@@ -60,9 +62,19 @@
     div#formulario > p{
         font-size: 1.3em;
     }
+    div.campo > input{
+        transform: translateY(-9px);
+    }
 
     div.campo{
         height: 46px;
+    }
+
+        
+    div.campo > input{
+        width: calc(100% - 45px);
+        transform: translateY(-7px);
+        padding: 20px;
     }
 
     p.espaço{
