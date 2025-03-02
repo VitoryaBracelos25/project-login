@@ -5,9 +5,11 @@
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
+
     section#login{
         width: 80vw;
     }
+
     section#login > div#imagem{
         float: left;
         width: 30%;
@@ -18,7 +20,14 @@
         float: right;
         width: 70%;
     }
+    div#formulario > h1{
+        padding-top: 10px;
+    }
+    div#formulario > p{
+        font-size: 1.2em;
+    }
 }
+
 /* versão computador */
 @media screen and (min-width: 992px) {
     body{
@@ -29,13 +38,45 @@
     }
 
     section#login > div#imagem{
-        float: left;
+        float: right;
         width: 45%;
         height: 100%;
     }
 
     section#login > div#formulario{
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    section#login > div#formulario{
+        padding-top: 30px;
+        padding-left: 50px;
+    }
+
+    div#formulario > h1{
+        font-size: 2em;
+    }
+
+    div#formulario > p{
+        font-size: 1.3em;
+    }
+
+    div.campo{
+        height: 46px;
+    }
+
+    p.espaço{
+        height: 9px;
+    }
+
+    div#botao > input#botao{
+        height: 46px;
+        font-size: 1.1em;
+    }
+
+    div#botao > a{
+        height: 46px;
+        padding-top: 10px;
+        font-size: 1.1em;
     }
 }

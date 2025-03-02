@@ -14,7 +14,7 @@ lilás: #5f2c82
 }
 
 body,html{
-    background-color: #5f2c82;
+    background-color: #49a09d;
     height: 100vh;
     width: 100vw;
 }
@@ -33,7 +33,7 @@ section#login{
     overflow: hidden;
 
     background-color: white;
-    width: 250px;
+    width: 270px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.393);
@@ -54,3 +54,83 @@ section#login > div#formulario{
     padding: 10px;
 
 }
+
+div#formulario >h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#formulario > p{
+    font-size: 0.8em;
+    padding-bottom: 14px;
+}
+/*8539b8*/
+/*rgb(89, 89, 169)*/
+div.campo{
+    padding-top: 5px;
+    padding-bottom: 6px;
+    border: 1px solid rgb(89, 89, 169) ;
+    background-color: rgb(89, 89, 169) ;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.273);
+    padding-left: 6px;
+}
+
+div.campo > span{
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+div.campo > label{
+    display: none;
+}
+
+p.espaço{
+    height: 6px;
+}
+
+form > div#botao{
+    height: 10px;
+}
+
+div#botao > input#botao{
+    background-color: #49a09d;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid #49a09d;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.273);
+    width: 100%;
+    height: 36px;
+    display: block;
+}
+div#botao > input#botao:hover{
+    background-color: rgb(21, 109, 21);
+    border-color: rgb(21, 109, 21);
+    cursor: pointer;
+}
+
+div#botao > a{
+    background-color: white;
+    color: rgb(21, 109, 21);
+    border-radius: 6px;
+    border: 1px solid #49a09d;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.363);
+    display: grid;
+    text-decoration: none;
+    font-size: .9em; 
+    display: block;
+    text-align: center;
+    height: 36px;
+    padding-top: 6px;
+}
+
+div#botao > a:hover{
+    background-color: lightgray;
+}
+
+div#botao > a > span{
+    font-size: 1em;
+}
+
+
+
+
